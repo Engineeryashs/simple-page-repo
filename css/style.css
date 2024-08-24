@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 17px;
+color:rgba(118, 180, 230, 0.984);
+line-height:1.6;
+}
+
+#showcase{
+    background-image:url('../images/beaches.jpg');
+    background-size:cover;
+    background-position: center;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:0 20px;
+    text-align: center;
+}
+
+#showcase h1{
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+#showcase p{
+    font-size: 20px;
+}
+
+#showcase .button{
+    box-shadow: inset 2px 4px 10px 5px rgba(118, 180, 230, 0.984);
+    font-size: 18px;
+    text-decoration:none;
+    border:1px solid rgba(118, 180, 230, 0.984);
+    color:rgba(118, 180, 230, 0.984);
+    padding:10px 20px;
+    margin:20px;
+    border-radius: 10px;
+}
+
+#showcase .button:hover{
+    background-color:rgba(118, 180, 230, 0.984);
+    color:white;
+}
+#a{
+    padding:20px;
+    background-color: rgba(118, 180, 230, 0.984);
+    color:white;
+    text-align:center;
+}
+#b{
+    padding:20px;
+    color: rgba(118, 180, 230, 0.984);
+    text-align: center;
+}
+#c{
+    display:flex;
+}
+#c .box1,#c .box3{
+    background-color: rgba(118, 180, 230, 0.984);
+    color:white;
+    padding: 20px;
+}
+#c .box2{
+    padding: 20px;
+    color:rgba(118, 180, 230, 0.984);
+}
